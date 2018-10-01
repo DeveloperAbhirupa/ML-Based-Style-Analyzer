@@ -1,6 +1,9 @@
 //var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://SignUp:signup123@ds219983.mlab.com:19983/goodquestion";
-let mongoose = require("mongoose")
+var express = require('path');
+var users= require("./routes/users");
+let mongoose = require("mongoose");
+
 mongoose.connect(url, function(err, db) {
 
   if (err) console.log("sjdbajsvbd");
@@ -9,7 +12,7 @@ mongoose.connect(url, function(err, db) {
 
 });
 
-var blogSchema = new Schema({
+var blogSchema = new mongoose.Schema({
   name: String,
   institution: String,
   id: String,

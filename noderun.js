@@ -9,7 +9,7 @@ mongoose.connect(url, function(err, db) {
 
 });
 
-var blogSchema = new Schema({
+var blogSchema = new mongoose.Schema({
   name: String,
   institution: String,
   id: String,

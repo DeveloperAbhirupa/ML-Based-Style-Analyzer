@@ -1,0 +1,26 @@
+{
+  "name": "apprun.js",
+  "version": "1.0.0",
+  "description": "\"App to launch database\"",
+  "main": "\"apprun.js\"",
+  "dependencies": {
+    "mongodb": "^3.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"echo \\\"Error:no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperAbhirupa/ML-Based-Style-Analyzer.git"
+  },
+  "keywords": [
+    "\"node\""
+  ],
+  "author": "\"Abhirupa\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloperAbhirupa/ML-Based-Style-Analyzer/issues"
+  },
+  "homepage": "https://github.com/DeveloperAbhirupa/ML-Based-Style-Analyzer#readme"
+}

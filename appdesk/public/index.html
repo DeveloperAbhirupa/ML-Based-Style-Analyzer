@@ -4,13 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <a onclick="javascript:document.getElementById('page_loader').style.display='block';" href="slowpage.html">Slow Page</a>
+<script>
+    jQuery(window).load(function () {
+    alert('page is loaded');
+
+    setTimeout(function () {
+        alert('page is loaded and 1 minute has passed');
+    }, 60000);
+});
+</script>
+
     <title>React App</title>
   </head>
   <body>
