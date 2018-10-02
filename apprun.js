@@ -11,11 +11,11 @@ mongoose.connect(url, function(err, db) {
   console.log("Database created!");
 
 });
-
-var blogSchema = new mongoose.Schema({
-  name: String,
-  institution: String,
-  id: String,
-  mail: String,
-  password:String,
-})
+// 
+// var blogSchema = new mongoose.Schema({
+//   name: String,
+//   institution: String,
+//   id: String,
+//   mail: String,
+//   password:String,
+// })
